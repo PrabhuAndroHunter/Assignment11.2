@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.assignment.MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:layout_marginTop="17dp"
+        android:maxLines="1"
+        android:ems="10"
+        android:text=""
+        android:hint="Enter Product Name"/>
+
+</RelativeLayout>
